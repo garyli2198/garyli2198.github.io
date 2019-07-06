@@ -1,0 +1,142 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118132769-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-118132769-1');
+    </script>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Gary Li</title>
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="viewport" content="width=device-width, initial-scale=1">\
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/js/jquery.particles.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</head>
+
+<body>
+    <div id="container">
+
+
+        <section id="home" class="section">
+            <div id="intro">
+                <img src="assets/img/logo.png" />
+            </div>
+            <canvas id="particles"></canvas>
+            <nav id="scrollsections-navigation">
+                <a id="about-link" href="#about">ABOUT ME</a> /
+                <a id="projects-link" href="#projects">MY PROJECTS</a> /
+                <a id="contact-link" href="#contact">CONTACT</a>
+            </nav>
+        </section>
+
+        <section id="about" class="section">
+            <div id="about-left">
+                <h1 class="section-title">About Me</h1>
+                <nav id="about-nav">
+                    <a class="nav-to-about">ABOUT ME</a> /
+                    <a class="nav-to-projects">MY PROJECTS</a> /
+                    <a class="nav-to-contact">CONTACT</a>
+                </nav>
+            </div>
+            <img id="pf-pic" src="assets/img/square.png" />
+            <div id="about-right" class="right">
+                <p class="bio">
+                    Hi! My name is Gary Li and I'm currently a
+                    <b>sophomore</b> at
+                    <b>UC Berkeley</b> studying
+                    <b>Computer Science</b>. I enjoy learning about new technologies and all things crypto-related.
+                </p>
+                <p class="bio">
+                    In my spare time, I love to play video games. My current gotos are
+                    <a id="overwatch" href="https://playoverwatch.com/en-us/" style="color:#f99e1a">Overwatch</a> and
+                    <a id="fornite" href="http://www.epicgames.com/fortnite" style="color:#76209F">Fortnite</a> (although I'm not great at either). I'm currently going through a Soylent phase but I love
+                    to cook. However, the feedback from my friends is usually less than positive. I also occasionally like
+                    to pick up things and put them back down at the gym.
+                </p>
+
+                <p class="bio">
+                    When I'm walking around campus, I'm probably listening to a podcast. My current favorite is
+                    <a href="https://www.gimletmedia.com/reply-all"
+                        style="color:#A2D1EB">Reply All</a>. If you use the internet, you should go give it a listen.
+                </p>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div id="projects-left">
+                <h1 class="section-title">My Projects</h1>
+                <nav id="projects-nav">
+                    <a class="nav-to-about">ABOUT ME</a> /
+                    <a class="nav-to-projects">MY PROJECTS</a> /
+                    <a class="nav-to-contact">CONTACT</a>
+                </nav>
+            </div>
+            <div id="projects-right" class="right">
+                <div class="project" id="educake">
+                    <a id="link1" href="https://serene-crag-51566.herokuapp.com/">EduCake <img class="link" src="assets/img/link.png"/></a>
+                    <div class="proj-desc">
+                        EduCake is an online platform that allows people to create and take customizable courses of their choosing. Made at BroncoHack
+                        2017.
+                    </div>
+                </div>
+                <div class="project" id="matchmeet">
+                    <a href="https://github.com/andrewchenk/matchmeet/">MatchMeet <img class="link"src="assets/img/link.png"/></a>
+                    <div class="proj-desc">
+                        A program that suggests nearby events for you based off your social media photos. Made at Cal Hacks 2017.
+                    </div>
+                </div>
+                <div class="project" id="connect4">
+                    <a href="https://garyli2198.github.io/connect4-react/">Connect 4 <img class="link" src="assets/img/link.png"/></a>
+                    <div class="proj-desc">
+                        A simple connect 4 game made with React.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div id="contact-left">
+                <h1 class="section-title">Contact Me</h1>
+                <nav id="contact-nav">
+                    <a class="nav-to-about">ABOUT ME</a> /
+                    <a class="nav-to-projects">MY PROJECTS</a> /
+                    <a class="nav-to-contact">CONTACT</a>
+                </nav>
+            </div>
+            <div id="contact-right" class="right">
+                <div class="contact-header">EMAIL</div>
+                gary.li (at) berkeley (dot) edu
+                <div class="contact-header">ON THE WEB</div>
+                <a href="https://www.facebook.com/garyli2198">Facebook</a> |
+                <a href="https://www.linkedin.com/in/gary-li-376849132/">LinkedIn</a> |
+                <a href="https://www.github.com/garyli2198">GitHub</a>
+            </div>
+        </section>
+        <script src="assets/js/plugins.js"></script>
+        <script src="assets/js/jquery.scrollSections-0.4.3.min.js"></script>
+        <script src="assets/js/jquery.lettering.js"></script>
+        <script src="assets/js/jquery.textillate.js"></script>
+    </div>
+</body>
+
+</html>
